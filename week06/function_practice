@@ -1,0 +1,7 @@
+def fun1(*args):
+    sum = 0
+    for val in args:
+        sum = sum + val
+    print(sum)
+
+fun1(2, 2, 6)
